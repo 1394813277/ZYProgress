@@ -2,6 +2,9 @@
 
 这是一个用于进度条显示的Progress
 
+#####效果
+![Mou icon](ZYProgress/progressgif.gif)
+
 #####使用
 
 `#import "CircleProgressView.h"`
