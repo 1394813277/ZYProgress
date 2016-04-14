@@ -117,6 +117,7 @@
 				TargetAttributes = {
 					397630C81CB396500068D23D = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4578BL25K7;
 					};
 				};
 			};
@@ -274,10 +275,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "$(SRCROOT)/ZYProgress/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BBK.ZYProgress;
 				PRODUCT_NAME = ZYProgress;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -286,10 +289,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "$(SRCROOT)/ZYProgress/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BBK.ZYProgress;
 				PRODUCT_NAME = ZYProgress;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
